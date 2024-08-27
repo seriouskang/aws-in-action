@@ -1,0 +1,5 @@
+Resources:
+  TestS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: "cloudformation-test-s3-bucket"
