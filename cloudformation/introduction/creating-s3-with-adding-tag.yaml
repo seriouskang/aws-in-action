@@ -1,0 +1,7 @@
+Resources:
+  TestS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      Tags:
+           - Key: s3-env
+             Value: test
