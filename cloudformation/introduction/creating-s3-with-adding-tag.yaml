@@ -4,4 +4,4 @@ Resources:
     Properties:
       Tags:
            - Key: s3-env
-             Value: test
+             Value: dev
