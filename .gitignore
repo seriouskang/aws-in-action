@@ -1,2 +1,5 @@
 materials
+
+# terraform
 .terraform*
+terraform.tfstate*
