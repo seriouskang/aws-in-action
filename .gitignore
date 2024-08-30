@@ -3,3 +3,4 @@ materials
 # terraform
 .terraform*
 terraform.tfstate*
+terraform.tfvars
