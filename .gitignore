@@ -7,3 +7,4 @@ terraform.tfvars
 
 # key
 *.pem
+test-key*
