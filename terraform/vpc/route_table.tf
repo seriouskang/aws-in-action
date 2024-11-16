@@ -35,3 +35,13 @@ resource "aws_route_table" "main-priavte" {
     Name = "main-private-1"
   }
 }
+
+resource "aws_route_table_association" "main-priavte-1-a" {
+  subnet_id = aws_subnet.main-private-1.id
+  route_table_id = aws_route_table.main-priavte.id
+}
+
+resource "aws_route_table_association" "main-private-2-a" {
+  subnet_id = aws_subnet.main-priavte-2.id
+  route_table_id = aws_route_table.main-priavte.id
+}
