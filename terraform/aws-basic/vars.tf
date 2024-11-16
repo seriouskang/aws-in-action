@@ -13,3 +13,11 @@ variable "PATH_TO_PUBLIC_KEY" {
 }
 
 variable "LOCAL_CIDR_BLOCKS" {}
+
+variable "AMIS" {
+  type = map(string)
+  default = {
+    ap-northeast-1 = "ami-0a0b7b240264a48d7"
+    foo            = "bar"
+  }
+}
