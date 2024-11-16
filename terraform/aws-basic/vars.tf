@@ -11,3 +11,5 @@ variable "PATH_TO_PRIAVTE_KEY" {
 variable "PATH_TO_PUBLIC_KEY" {
   default = "test-key.pub"
 }
+
+variable "LOCAL_CIDR_BLOCKS" {}
