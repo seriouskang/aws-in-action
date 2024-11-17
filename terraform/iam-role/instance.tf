@@ -7,4 +7,6 @@ resource "aws_instance" "example-ec2" {
   vpc_security_group_ids = [aws_security_group.allow-ssh.id]
 
   key_name = aws_key_pair.test-key-pair.key_name
+
+  iam_instance_profile = aws_iam_instance_profile.s3-test-bucket-role-instance-profile.name
 }
